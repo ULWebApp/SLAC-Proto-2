@@ -1,7 +1,7 @@
 body {
   font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: rgb(13, 13, 233);
-  height: 200vh;
+  background-color: rgb(254, 254, 255);
+  height: 140vh;
   position: relative; }
   body:before {
     content: "";
@@ -366,7 +366,16 @@ a {
 .bg-light{
     background-color: #353536;
 }
+
+.bg-lightblue{
+  background-color: #e3ebef; 
+}
+.bg-ltblue{
+  background-color: #add7ec; 
+}
+
 /* END  background Blue custom test*/
+
 
 /* Navigation Background Custom */
 .slac-nav-custom{

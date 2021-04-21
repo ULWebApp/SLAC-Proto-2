@@ -4,6 +4,7 @@
 --------------------------------------------------------------*/
 .courses {
     overflow: hidden;
+    z-index: 10;
   }
   
   .courses.nav-tabs {

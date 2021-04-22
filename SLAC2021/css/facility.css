@@ -56,7 +56,7 @@
 }
 
 .events .read-more a:hover {
-  color: #5fcf80;
+  color: #2a077c;
 }
 
 .events .card:hover img {
@@ -64,9 +64,9 @@
 }
 
 .events .card:hover .card-body {
-  border-color: #5fcf80;
+  border-color: #2a077c;
 }
 
 .events .card:hover .card-body .card-title a {
-  color: #5fcf80;
+  color: #2a077c;
 }

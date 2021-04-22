@@ -538,13 +538,14 @@ p {
   100% {
     width: 80%; } } 
 
-.mky-footer {
+.mky-footer { 
+  margin-top: 75px;
   padding: 75px 0 0;
   background-color: #151414;
   position: relative;
   z-index: 2; }
   .mky-footer .contact-us {
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 30px;
     padding-left: 80px; }
     .mky-footer .contact-us .contact-info {

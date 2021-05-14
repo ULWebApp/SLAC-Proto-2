@@ -90,10 +90,10 @@ $(function() {
 //Affiliations Slider
 $(document).ready(function () {
 	$('.customer-logos').slick({
-		slidesToShow: 6,
+		slidesToShow: 4,
 		slidesToScroll: 1,
 		autoplay: true,
-		autoplaySpeed: 1500,
+		autoplaySpeed: 2000,
 		arrows: false,
 		dots: false,
 		pauseOnHover: true,
@@ -105,7 +105,7 @@ $(document).ready(function () {
 		}, {
 			breakpoint: 520,
 			settings: {
-				slidesToShow: 3
+				slidesToShow: 2
 			}
 		}]
 	});

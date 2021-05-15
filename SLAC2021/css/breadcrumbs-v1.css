@@ -1,11 +1,10 @@
-
+/* 
 .breadcrumbs {
   margin-top: 110px;
   margin-right: 110px;
   text-align: center;
-  padding: 30px 0;
   color: black;
-}
+} 
 
 @media (max-width: 992px) {
   .breadcrumbs {
@@ -24,4 +23,4 @@
 }
 .breadcrumb ol{
     text-align: center;
-}
+}*/

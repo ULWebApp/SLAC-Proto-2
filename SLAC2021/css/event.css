@@ -1,11 +1,11 @@
-    body {
+    /* body {
     background-color: #f1f1f1;
     padding: 20px;
     font-family: Arial;
-  }
+  } */
   
   /* Center website */
-  .main {
+  /* .main {
     max-width: 1000px;
     margin: auto;
   }
@@ -18,7 +18,7 @@
   .row {
     margin: 10px -16px;
   }
-  
+   */
   /* Add padding BETWEEN each column */
   .row,
   .row > .column {

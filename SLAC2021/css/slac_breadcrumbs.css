@@ -24,3 +24,16 @@
 .breadcrumb ol{
     text-align: center;
 }*/
+
+.breadcrumb{
+    background: #0088dd;
+    border-radius: 0 0 16px 17px;
+  color: #efefef9d;
+}
+
+.breadcrumb a{
+  color: #efefef;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+  color: #fff;
+}

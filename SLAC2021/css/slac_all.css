@@ -1,9 +1,10 @@
 body {
+  position: relative;
   font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: rgb(254, 254, 255);
-  position: relative;
+  color: #333;
 }
 body:before {
   content: "";
@@ -27,25 +28,7 @@ body.offcanvas-menu:before {
 }
 
 p {
-  color: #b3b3b3;
-  font-weight: 300;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
 }
 
 a {
@@ -80,7 +63,8 @@ a:hover {
 }
 
 .site-navbar-top {
-  background: rgb(22, 61, 138, 88%);
+  background: rgba(0, 135, 219, 0.90);
+  /* background: rgb(22, 61, 138, 88%); */
   /* border-bottom: 1px solid rgba(255, 255, 255, 0.4); */
 }
 
@@ -115,15 +99,16 @@ a:hover {
 }
 .site-navbar .site-navigation .site-menu > li > a {
   padding: 20px 10px;
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff;
+  /* color: rgba(255, 255, 255, 0.6); */
   font-size: 15px;
   text-decoration: none !important;
 }
-.site-navbar .site-navigation .site-menu > li > a.active {
+.site-navbar .site-navigation .site-menu > li.has-children > a.active {
   color: #fff;
 }
-.site-navbar .site-navigation .site-menu > li > a:hover {
-  color: #fff;
+.site-navbar .site-navigation .site-menu > li.has-children > a:hover {
+  color: rgba(255, 255, 255, 0.6);
 }
 .site-navbar .site-navigation .site-menu > li:last-child {
   padding-right: 0;
@@ -650,9 +635,6 @@ a:hover {
 /* footer { color: #ccc } */
 .footer-widget p {
   margin-bottom: 27px;
-}
-p {
-  font-family: "Nunito", sans-serif;
   font-size: 16px;
   line-height: 28px;
 }
@@ -754,6 +736,7 @@ p {
   background-color: #151414;
   position: relative;
   z-index: 2;
+  color: #878787;
 }
 .mky-footer .contact-us {
   margin-top: 0px;
@@ -1112,4 +1095,21 @@ p {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.border-top-4-0088dd {
+  border-top: 4px solid #0088dd;
+}
+.outline-bottom-4-0088dd {
+  outline: 4px solid #0088dd;
+}
+
+.btn-student-portal{
+  background-color: #333;
+  border-color: #333;
+}
+
+.btn-student-portal:hover{
+  background-color: rgba(51, 51, 51, 0.80);
+  border-color: rgba(51, 51, 51, 0.80);
 }

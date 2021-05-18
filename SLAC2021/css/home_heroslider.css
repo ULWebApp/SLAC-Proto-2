@@ -16,3 +16,17 @@
   }
 }
 /* Hero Slider Mobile Switch */
+
+
+/* Slider image contrast */
+.carousel-fade .carousel-item img {
+  filter:brightness(84%);
+}
+
+.bottom-16vh{
+  bottom: 32px;
+}
+
+.bottom-25vh{
+  bottom: 25vh;
+}

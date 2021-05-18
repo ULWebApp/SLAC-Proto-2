@@ -117,7 +117,7 @@
 
 @media (min-width: 992px){
     #affiliation-slider{
-          top: -30px;
+          /* top: -30px; */
           position: relative;
     }
 }

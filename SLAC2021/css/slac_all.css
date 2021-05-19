@@ -814,6 +814,14 @@ a:hover {
   background-color: #c93763;
 }
 
+.mky-footer a{
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.mky-footer a:hover{
+  color: rgba(255, 255, 255);
+}
+
 .footer-awarad {
   margin-top: 285px;
   display: -webkit-box;
@@ -879,15 +887,10 @@ a:hover {
 }
 
 .footer-widget a {
-  color: #878787;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-.footer-widget a:hover {
-  color: #153d8a;
-}
-
 .footer-widget:after {
   content: "";
   display: block;
@@ -1123,4 +1126,8 @@ a:hover {
 .btn-student-portal:hover{
   background-color: rgba(51, 51, 51, 0.80);
   border-color: rgba(51, 51, 51, 0.80);
+}
+
+.br-12{
+    border-radius: 12px;
 }

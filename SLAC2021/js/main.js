@@ -90,7 +90,7 @@ $(function() {
 //Affiliations Slider
 $(document).ready(function () {
 	$('.customer-logos').slick({
-		slidesToShow: 7,
+		slidesToShow: 9,
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2000,
@@ -98,6 +98,11 @@ $(document).ready(function () {
 		dots: false,
 		pauseOnHover: true,
 		responsive: [{
+			breakpoint: 1920,
+			settings: {
+				slidesToShow: 7
+			}
+		},{
 			breakpoint: 768,
 			settings: {
 				slidesToShow: 4

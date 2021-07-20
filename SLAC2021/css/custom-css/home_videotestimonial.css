@@ -1,15 +1,91 @@
-/* Video Testimonials Starts here */
-#video-testimonail h2, #video-testimonail h4, #affiliation-slider h2{
-    color: #cccccc; 
-}
-.video-testimonial-block { position: relative; width: auto; height: 206px; overflow: hidden; margin-bottom: 30px; }
-.video-testimonial-block .video-thumbnail { height: 100%; width: 100%; position: absolute; z-index: 1; background-size: cover; top: 0; left: 0; }
-.video-testimonial-block .video { }
-.video-testimonial-block .video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0px; }
-.video-testimonial-block .video-play { position: absolute; z-index: 2; top: 50%; left: 50%; margin-left: -40px; margin-top: -18px; text-decoration: none; }
-.video-testimonial-block .video-play::before { content: "\f144"; font: normal normal normal 14px/1; font-family: 'Font Awesome\ 5 Free'; font-weight: 900; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-size: 50px; color: #b3b5bc; }
-.video-testimonial-block .video-play:hover::before { color: #172651; }
-.mb10{margin-bottom:10px;}
-.section-title { margin-bottom: 40px; }
 
-/* Video Testimonials ENDS here */
+/* Fullscreen Video Playlist here */
+.video-background {
+  position: relative;
+  max-width: 100%;
+  border-bottom: 1px solid #000;
+  width: 100vw;
+  padding: 0;
+  min-height: 720px;
+  background-size: cover;
+  background: #000;
+  /* overflow: hidden; */
+  /* position: fixed; */
+  /* top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; */
+  /* z-index: -99; */
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* pointer-events: none; */
+}
+#vidtop-content {
+  position: inherit;
+  /* top: 0;
+  color: #fff; */
+}
+.vid-info {
+    padding: 2rem;
+  font-size: 1.25em;
+  background: rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 2px 6px #000, 0 0 2px #000, 0 0 2px #000;
+  text-shadow: 0 2px 6px var(--shadow), 0 0 2px var(--shadow),
+    0 0 2px var(--shadow);
+  text-align: center;
+  letter-spacing: 0.12em;
+  margin: 0;
+}
+.vid-info h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0;
+  line-height: 1.2;
+}
+.vid-info a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+  transition: 0.6s background;
+  border-bottom: none;
+  margin: 1rem auto;
+  text-align: center;
+}
+/* 
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground {
+    height: 300%;
+    top: -100%;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground {
+    width: 300%;
+    left: -100%;
+  }
+}
+@media all and (max-width: 600px) {
+  .vid-info {
+    width: 50%;
+    padding: 0.5rem;
+  }
+  .vid-info h1 {
+    margin-bottom: 0.2rem;
+  }
+}
+@media all and (max-width: 500px) {
+  .vid-info .acronym {
+    display: none;
+  }
+} */
+
+/* END Fullscreen Video Playlist here */

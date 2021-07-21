@@ -64,7 +64,7 @@ a:hover {
 
 .site-navbar-top {
   /* background: rgba(0, 135, 219, 0.90); */
-  /* background: rgb(22, 61, 138, 88%); */
+  background: rgb(22, 61, 138, 88%);
   /* border-bottom: 1px solid rgba(255, 255, 255, 0.4); */
 }
 
@@ -559,7 +559,7 @@ a:hover {
 /* Navigation Background Custom */
 .slac-nav-custom {
   /* background: #163d8a; */
-  /* background: rgba(22, 61, 138, 0.878); */
+  background: rgba(22, 61, 138, 0.878);
   border-radius: 0 0 16px 16px;
 }
 /* END Navigation Background Custom */

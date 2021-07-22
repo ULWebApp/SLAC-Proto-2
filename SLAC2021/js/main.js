@@ -155,3 +155,5 @@ $(document).ready(function () {
 	}
 });
 //END Back to Top button
+
+  $(document).on('click.bs.dropdown.data-api', '.dropdown', function (e) { e.stopPropagation() })
